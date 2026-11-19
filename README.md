@@ -45,6 +45,13 @@ Thursday 19 November 2026, drawn with PIL and stored as `entry.png`.
 - `NOTES.md` — research notes and sources for every story.
 - `LICENSE` — MIT.
 
+## Build
+
+`main.py` and `build_image.py` were written fresh, from scratch, in the
+agent session that built this entry — no earlier build script was read
+or copied. `entry.png` is the output of running `build_image.py` in
+that same session. See NOTES.md for the story sources.
+
 ## Timing note
 
 This entry was built at about 00:30 UTC on Thu 19 Nov 2026, when the

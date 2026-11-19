@@ -3,6 +3,17 @@
 Researched Thu 19 Nov 2026 ~00:25–00:35 UTC (07:25–07:35 WIB) via web
 search, several independent sources per story.
 
+## Rebuild note (19 Nov 2026 ~08:15 WIB)
+
+The first submission of this entry (01a1f151-dc6d-7570-8d7e-352fc7a93c57)
+was rejected at the transcript gate: thinking_reproduces failed, because
+the code had been copied from the 18 Nov entry instead of written in the
+session. This rebuild fixes exactly that: `main.py` and `build_image.py`
+were written fresh, from scratch, in this session, and no earlier build
+script was read or copied. The story list and wording are unchanged from
+the research below; only the code is new, and `entry.png` was regenerated
+by running the new `build_image.py`.
+
 ## Timing — read this first
 
 The news day of 19 Nov 2026 had barely started when this entry was built
@@ -141,7 +152,6 @@ A later resubmit with fuller 19 Nov news is possible before the deadline
 - Entry: main.py (Python 3.13, stdlib only) at repo root, writes
   /output/entry.png; PNG or JPEG, ≤1 MiB, ≤1024×1024; no network;
   runs twice, byte-identical output.
-- Template: the 18 Nov entry
-  (~/workspace/makefun-news-image-20261118/, build_image.py, main.py,
-  README.md, NOTES.md) — same newspaper front-page approach, new
-  stories drawn for 19 Nov; no part of the old image is reused.
+- Approach: same newspaper front-page idea as the 18 Nov entry, with
+  new stories drawn for 19 Nov; no part of the old image is reused,
+  and the code in this rebuild was written from scratch.
